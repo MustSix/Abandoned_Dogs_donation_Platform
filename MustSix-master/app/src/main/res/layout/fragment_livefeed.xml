@@ -95,12 +95,12 @@
         android:layout_marginTop="10dp">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="70dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="GGYUE"
-            tools:text="name"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold"
+            tools:text="name"></TextView>
 
         <TextView
             android:layout_width="match_parent"
@@ -116,13 +116,12 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="70dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="Suyeon"
-            tools:text="name"
             android:textStyle="bold"
-            ></TextView>
+            tools:text="name"></TextView>
 
         <TextView
             android:layout_width="match_parent"
@@ -138,7 +137,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="70dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="GGYUE"
@@ -159,7 +158,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="70dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="Suyeon"
@@ -180,7 +179,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="70dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="GGYUE"
@@ -201,7 +200,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="70dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="darom"
