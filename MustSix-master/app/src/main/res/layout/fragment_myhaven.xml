@@ -4,4 +4,28 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="feed" />
+
+    <Button
+        android:id="@+id/cloth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cloth" />
+
+    <Button
+        android:id="@+id/beauty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="beauty" />
+
+    <Button
+        android:id="@+id/snack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="snack" />
+
 </LinearLayout>
