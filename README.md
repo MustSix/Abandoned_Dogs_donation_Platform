@@ -57,7 +57,7 @@
 
 ## Mock Up
 
-![KakaoTalk_20200213_172110386](C:\Users\ekfha\OneDrive\바탕 화면\FOUNDERS\KakaoTalk_20200213_172110386.png)
+![KakaoTalk_20200213_172110386](https://user-images.githubusercontent.com/44438366/74476846-90191500-4eed-11ea-88c3-b737a5efe6aa.png)
 
 
 
