@@ -38,7 +38,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:text="5.0 ETH"
                 android:textStyle="bold"/>
         </LinearLayout>
 

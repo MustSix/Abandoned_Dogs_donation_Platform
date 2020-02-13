@@ -22,11 +22,8 @@ public class MyHavenFragment extends Fragment {
     ImageView roomimage = null;
 
     public double dog_balance = 3.0;
-    public double plus_snack = 0.3;
-    public double plus_feed = 0.3;
-    public double plus_cloth = 0.3;
-    public double plus_beauty = 0.3;
-    public double plus_play = 0.3;
+    public double plus_eth = 0.3;
+
 
     @Nullable
     @Override
@@ -62,8 +59,10 @@ public class MyHavenFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 roomimage.setImageResource(R.drawable.haven_snack);
-                dog_balance = dog_balance + plus_snack;
-                havendog1_txt.setText(dog_balance+ " ETH");
+                dog_balance = dog_balance + plus_eth;
+                dog_balance = Math.round(dog_balance*10)/10.0;
+                String tmp = Double.toString(dog_balance);
+                havendog1_txt.setText(tmp + " ETH");
             }
         });
 
@@ -71,8 +70,10 @@ public class MyHavenFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 roomimage.setImageResource(R.drawable.haven_feed);
-                dog_balance = dog_balance + plus_feed;
-                havendog1_txt.setText(dog_balance+ " ETH");
+                dog_balance = dog_balance + plus_eth;
+                dog_balance = Math.round(dog_balance*10)/10.0;
+                String tmp = Double.toString(dog_balance);
+                havendog1_txt.setText(tmp + " ETH");
             }
         });
 
@@ -80,8 +81,10 @@ public class MyHavenFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 roomimage.setImageResource(R.drawable.haven_cloth);
-                dog_balance = dog_balance + plus_cloth;
-                havendog1_txt.setText(dog_balance+ " ETH");
+                dog_balance = dog_balance + plus_eth;
+                dog_balance = Math.round(dog_balance*10)/10.0;
+                String tmp = Double.toString(dog_balance);
+                havendog1_txt.setText(tmp + " ETH");
             }
         });
 
@@ -89,8 +92,10 @@ public class MyHavenFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 roomimage.setImageResource(R.drawable.haven_beauty);
-                dog_balance = dog_balance + plus_beauty;
-                havendog1_txt.setText(dog_balance+ " ETH");
+                dog_balance = dog_balance + plus_eth;
+                dog_balance = Math.round(dog_balance*10)/10.0;
+                String tmp = Double.toString(dog_balance);
+                havendog1_txt.setText(tmp + " ETH");
             }
         });
 
@@ -98,8 +103,10 @@ public class MyHavenFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 roomimage.setImageResource(R.drawable.haven_play);
-                dog_balance = dog_balance + plus_play;
-                havendog1_txt.setText(dog_balance+ " ETH");
+                dog_balance = dog_balance + plus_eth;
+                dog_balance = Math.round(dog_balance*10)/10.0;
+                String tmp = Double.toString(dog_balance);
+                havendog1_txt.setText(tmp + " ETH");
             }
         });
 
