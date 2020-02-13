@@ -161,43 +161,50 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="534dp"
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/emptyroom"
             android:layout_width="match_parent"
-            android:layout_height="291dp"
-            android:src="@drawable/emptyroom"></ImageView>
-
-        <View
-            android:id="@+id/view"
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="254dp"
+            android:src="@drawable/emptyroom" />
 
         <Button
             android:id="@+id/snack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="간식 사주기 0.2 ETH" />
+            android:text="간식 사주기"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/feed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="사료 먹이기 0.3 ETH" />
+            android:text="사료 먹이기"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/cloth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="옷 입혀주기  0.5 ETH" />
+            android:text="옷 입혀주기"
+            android:textStyle="bold" />
 
 
         <Button
             android:id="@+id/beauty"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="미용 시키기 0.7 ETH" />
+            android:text="미용 시키기"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="놀아 주기"
+            android:textStyle="bold" />
     </LinearLayout>
 
 
