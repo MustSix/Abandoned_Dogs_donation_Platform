@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#DD4488"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffd1dc">
+
+
+        <FrameLayout
+            android:id="@+id/cardsname"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:background="#F39E9E">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="사랑이"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="with Justin"
+                    android:textAlignment="center"
+                    android:textSize="15dp"></TextView>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="320dp"
+            android:layout_height="305dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/maxwell6"></ImageView>
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="#F39E9E">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(실제로 사랑이를 길러온 사람들이 합의 하에 작성하는 사랑이의 소개글) 사랑이는 너무 착합니다!
+애교가 많고 앞발들기가 특기예요. 요즘 보령 바닷가 주택에서 지내는 중인데 행복한 얼굴만 보여줘서 너무 고맙습니다. :)"
+                android:textSize="20dp"></TextView>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bd_favorite"></ImageView>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="80"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
