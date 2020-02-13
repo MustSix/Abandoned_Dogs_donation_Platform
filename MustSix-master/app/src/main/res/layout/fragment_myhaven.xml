@@ -8,97 +8,156 @@
         android:layout_width="0dp"
         android:layout_height="20dp"/>
 
+    <!--상단버튼 바-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="77dp"
+        android:layout_height="108dp"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/haven_dog1"
+        <!--상단버튼1-->
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="101dp"
             android:layout_weight="1"
-            android:drawableTop="@drawable/havenicon1"
-            android:gravity="center"
-            android:drawablePadding="1dp"
-            android:background="#00ff0000"
-            android:text="6.0ETH">
-        </Button>
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/haven_dog2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/havenicon2"
-            android:gravity="center"
-            android:drawablePadding="1dp"
-            android:background="#00ff0000"
-            android:text="3.0ETH">
-        </Button>
+            <ImageButton
+                android:id="@+id/havendog1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="0sp"
+                android:scaleType="centerInside"
 
-        <Button
-            android:id="@+id/haven_dog3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/havenicon3"
-            android:gravity="center"
-            android:drawablePadding="1dp"
-            android:background="#00ff0000"
-            android:text="0.3ETH">
-        </Button>
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/havenicon1"></ImageButton>
 
-        <Button
-            android:id="@+id/haven_dog4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/havenicon4"
-            android:gravity="center"
-            android:drawablePadding="1dp"
-            android:background="#00ff0000"
-            android:text="2.0ETH">
-        </Button>
+            <TextView
+                android:id="@+id/havendog1_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="5.0 ETH"
+                android:textStyle="bold"/>
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/haven_dog5"
+        <!--상단버튼2-->
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="101dp"
             android:layout_weight="1"
-            android:drawableTop="@drawable/havenicon5"
-            android:gravity="center"
-            android:drawablePadding="1dp"
-            android:background="#00ff0000"
-            android:text="4.7ETH">
-        </Button>
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/haven_dog6"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/havenicon6"
-            android:gravity="center"
-            android:drawablePadding="1dp"
-            android:background="#00ff0000"
-            android:text="1.2ETH">
-        </Button>
+            <ImageButton
+                android:id="@+id/havendog2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="0sp"
+                android:scaleType="centerInside"
+                android:backgroundTint="@android:color/transparent"
 
-        <Button
-            android:id="@+id/haven_dog7"
+                android:src="@drawable/havenicon2"></ImageButton>
+
+            <TextView
+                android:id="@+id/havendog2_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="4.5 ETH"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--상단버튼3-->
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="101dp"
             android:layout_weight="1"
-            android:drawableTop="@drawable/havenicon7"
-            android:gravity="center"
-            android:drawablePadding="1dp"
-            android:background="#00ff0000"
-            android:text="0.9ETH">
-        </Button>
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/havendog3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="0sp"
+                android:scaleType="centerInside"
+
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/havenicon3"></ImageButton>
+
+            <TextView
+                android:id="@+id/havendog3_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="3.2 ETH"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--상단버튼4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/havendog4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="0sp"
+                android:scaleType="centerInside"
+
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/havenicon4"></ImageButton>
+
+            <TextView
+                android:id="@+id/havendog4_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="2.9 ETH"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--상단버튼5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/havendog5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="0sp"
+                android:scaleType="centerInside"
+
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/havenicon5"></ImageButton>
+
+            <TextView
+                android:id="@+id/havendog5_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="1.8 ETH"
+                android:textStyle="bold" />
+        </LinearLayout>
 
 
     </LinearLayout>
+
+    <!--농장 그림 및 키우기 버튼-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -108,7 +167,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="291dp"
-            android:src="@drawable/haven_test2"></ImageView>
+            android:src="@drawable/emptyroom"></ImageView>
 
         <View
             android:id="@+id/view"
@@ -119,26 +178,26 @@
             android:id="@+id/snack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BUYING SNACK 0.2 ETH" />
+            android:text="간식 사주기 0.2 ETH" />
 
         <Button
             android:id="@+id/feed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FEEDING 0.3 ETH" />
+            android:text="사료 먹이기 0.3 ETH" />
 
         <Button
             android:id="@+id/cloth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="DRESSING  0.5 ETH" />
+            android:text="옷 입혀주기  0.5 ETH" />
 
 
         <Button
             android:id="@+id/beauty"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="HAIR 0.7 ETH" />
+            android:text="미용 시키기 0.7 ETH" />
     </LinearLayout>
 
 
