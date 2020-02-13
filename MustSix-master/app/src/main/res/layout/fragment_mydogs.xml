@@ -21,6 +21,8 @@
             android:gravity="center"
             android:drawablePadding="1dp"
             android:background="#00ff0000"
+            android:textColor="@color/colorDivision"
+            android:textSize="10dp"
             android:text="Clay">
         </Button>
 
@@ -33,6 +35,8 @@
             android:gravity="center"
             android:drawablePadding="1dp"
             android:background="#00ff0000"
+            android:textColor="@color/colorDivision"
+            android:textSize="10dp"
             android:text="Oliver">
         </Button>
 
@@ -45,6 +49,8 @@
             android:gravity="center"
             android:drawablePadding="1dp"
             android:background="#00ff0000"
+            android:textColor="@color/colorDivision"
+            android:textSize="10dp"
             android:text="Luna">
         </Button>
 
@@ -57,6 +63,8 @@
             android:gravity="center"
             android:drawablePadding="1dp"
             android:background="#00ff0000"
+            android:textColor="@color/colorDivision"
+            android:textSize="10dp"
             android:text="Toby">
         </Button>
 
@@ -69,6 +77,8 @@
             android:gravity="center"
             android:drawablePadding="1dp"
             android:background="#00ff0000"
+            android:textColor="@color/colorDivision"
+            android:textSize="10dp"
             android:text="Molly">
         </Button>
 
@@ -81,6 +91,8 @@
             android:gravity="center"
             android:drawablePadding="1dp"
             android:background="#00ff0000"
+            android:textColor="@color/colorDivision"
+            android:textSize="10dp"
             android:text="Chalie">
         </Button>
 
@@ -93,6 +105,8 @@
             android:gravity="center"
             android:drawablePadding="1dp"
             android:background="#00ff0000"
+            android:textColor="@color/colorDivision"
+            android:textSize="10dp"
             android:text="Bailey">
         </Button>
 
