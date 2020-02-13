@@ -75,8 +75,9 @@
             android:text="Donators Watching"
             tools:text="Donators Watching"></TextView>
 
+
         <ImageButton
-            android:id="@+id/livefeed_donate"
+            android:id="@+id/home_donate"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_marginLeft="130dp"
