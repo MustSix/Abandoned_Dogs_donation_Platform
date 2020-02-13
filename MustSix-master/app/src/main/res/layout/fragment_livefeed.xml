@@ -203,7 +203,7 @@
             android:layout_width="70dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
-            android:text="darom"
+            android:text="Suyeon"
             tools:text="name"
             android:textStyle="bold"></TextView>
 
