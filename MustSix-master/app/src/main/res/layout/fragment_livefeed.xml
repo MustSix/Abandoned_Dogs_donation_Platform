@@ -21,13 +21,15 @@
         <TextView
             android:layout_width="130dp"
             android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
             android:text="Maxwell"
-            tools:text="writer"></TextView>
+            tools:text="writer"
+            android:textSize="20dp"></TextView>
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="2dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="90dp"
             android:src="@drawable/bd_mappointer"></ImageView>
 
@@ -46,7 +48,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="285dp"
-            android:src="@drawable/maxwell6"></ImageView>
+            android:src="@drawable/livefeed_image"></ImageView>
     </RelativeLayout>
 
     <LinearLayout
@@ -57,37 +59,40 @@
         android:layout_marginTop="20dp">
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/bd_favorite"></ImageView>
+            android:src="@drawable/ic_donate"></ImageView>
 
         <TextView
             android:layout_width="32dp"
             android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
             android:text="20"
-            tools:text="donators watching number"></TextView>
+            tools:text="donators watching number"
+            android:textSize="18dp"></TextView>
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
             android:text="Donators Watching"
+            android:textSize="18dp"
             tools:text="Donators Watching"></TextView>
 
-
         <ImageButton
-            android:id="@+id/home_donate"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginLeft="130dp"
+            android:id="@+id/livefeed_donate"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
             android:src="@drawable/key"></ImageButton>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/livefeed_image"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
 
         <TextView
             android:layout_width="50dp"
@@ -97,17 +102,16 @@
             tools:text="name"></TextView>
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
-            android:text="fdsfs"
-            tools:text="Donators Watching"></TextView>
+            android:text="내가 후원한 강아쥐~~"
+            tools:text="comments"></TextView>
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/livefeed_image"
+        android:layout_below="@id/livefeed_image"
         android:orientation="horizontal">
 
         <TextView
@@ -118,11 +122,11 @@
             tools:text="name"></TextView>
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
-            android:text="few"
-            tools:text="Donators Watching"></TextView>
+            android:text="사료 맛있게 먹으니 안심이 ㅠㅠ"
+            tools:text="comments"></TextView>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -138,11 +142,11 @@
             tools:text="name"></TextView>
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
-            android:text="vcxvx"
-            tools:text="Donators Watching"></TextView>
+            android:text="수연님 잘 지내셨어요~?"
+            tools:text="comments"></TextView>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -154,15 +158,15 @@
             android:layout_width="50dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
-            android:text="Justin"
+            android:text="Suyeon"
             tools:text="name"></TextView>
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
-            android:text="jyjt"
-            tools:text="Donators Watching"></TextView>
+            android:text="네 뀨님!! 뀨님은여?"
+            tools:text="comments"></TextView>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -174,15 +178,15 @@
             android:layout_width="50dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
-            android:text="HYUNA"
+            android:text="GGYUE"
             tools:text="name"></TextView>
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
-            android:text="rjth"
-            tools:text="Donators Watching"></TextView>
+            android:text="저야 뭐 늘 그렇죠 ^^"
+            tools:text="comments"></TextView>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -198,11 +202,11 @@
             tools:text="name">people</TextView>
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
-            android:text="123567"
-            tools:text="Donators Watching"></TextView>
+            android:text="아 네...^^"
+            tools:text="comments"></TextView>
     </LinearLayout>
 
 </LinearLayout>
