@@ -1,31 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#AA0011"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/feed"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="feed" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
 
-    <Button
-        android:id="@+id/cloth"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="cloth" />
+        android:layout_height="77dp"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/beauty"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="beauty" />
+        <Button
+            android:id="@+id/haven_dog1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/havenicon1"
+            android:gravity="center"
+            android:drawablePadding="1dp"
+            android:background="#00ff0000"
+            android:text="6.0ETH">
+        </Button>
 
-    <Button
-        android:id="@+id/snack"
+        <Button
+            android:id="@+id/haven_dog2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/havenicon2"
+            android:gravity="center"
+            android:drawablePadding="1dp"
+            android:background="#00ff0000"
+            android:text="3.0ETH">
+        </Button>
+
+        <Button
+            android:id="@+id/haven_dog3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/havenicon3"
+            android:gravity="center"
+            android:drawablePadding="1dp"
+            android:background="#00ff0000"
+            android:text="0.3ETH">
+        </Button>
+
+        <Button
+            android:id="@+id/haven_dog4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/havenicon4"
+            android:gravity="center"
+            android:drawablePadding="1dp"
+            android:background="#00ff0000"
+            android:text="2.0ETH">
+        </Button>
+
+        <Button
+            android:id="@+id/haven_dog5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/havenicon5"
+            android:gravity="center"
+            android:drawablePadding="1dp"
+            android:background="#00ff0000"
+            android:text="4.7ETH">
+        </Button>
+
+        <Button
+            android:id="@+id/haven_dog6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/havenicon6"
+            android:gravity="center"
+            android:drawablePadding="1dp"
+            android:background="#00ff0000"
+            android:text="1.2ETH">
+        </Button>
+
+        <Button
+            android:id="@+id/haven_dog7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/havenicon7"
+            android:gravity="center"
+            android:drawablePadding="1dp"
+            android:background="#00ff0000"
+            android:text="0.9ETH">
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="snack" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:src="@drawable/haven_test2"></ImageView>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/snack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUYING SNACK 0.2 ETH" />
+
+        <Button
+            android:id="@+id/feed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEEDING 0.3 ETH" />
+
+        <Button
+            android:id="@+id/cloth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DRESSING  0.5 ETH" />
+
+
+        <Button
+            android:id="@+id/beauty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HAIR 0.7 ETH" />
+    </LinearLayout>
+
 
 </LinearLayout>
