@@ -99,7 +99,8 @@
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="GGYUE"
-            tools:text="name"></TextView>
+            tools:text="name"
+            android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
@@ -119,7 +120,9 @@
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="Suyeon"
-            tools:text="name"></TextView>
+            tools:text="name"
+            android:textStyle="bold"
+            ></TextView>
 
         <TextView
             android:layout_width="match_parent"
@@ -139,7 +142,8 @@
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="GGYUE"
-            tools:text="name"></TextView>
+            tools:text="name"
+            android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
@@ -159,7 +163,8 @@
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="Suyeon"
-            tools:text="name"></TextView>
+            tools:text="name"
+            android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
@@ -179,7 +184,8 @@
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="GGYUE"
-            tools:text="name"></TextView>
+            tools:text="name"
+            android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
@@ -199,7 +205,8 @@
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
             android:text="darom"
-            tools:text="name">people</TextView>
+            tools:text="name"
+            android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
